@@ -82,7 +82,7 @@ function LineGraph({ casesType, country }) {
   }, [casesType, country])
 
   return (
-    <div>
+    <div style={{ height: "250px" }}>
       <Line
         data={{
           datasets: [
